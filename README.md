@@ -20,7 +20,7 @@
 
 ### BREAKDOWN COLUMNS OF ORDERS
 
-(Total sum of each group equals TOTAL_ORDERS)
+(Total sum of each group of columns equals to sum of TOTAL_ORDERS column)
 
 - By Day of Week:
   - MONDAY_ORDERS, TUESDAY_ORDERS, WEDNESDAY_ORDERS, THURSDAY_ORDERS, FRIDAY_ORDERS, SATURDAY_ORDERS, SUNDAY_ORDERS
@@ -33,7 +33,7 @@
 
 ### BREAKDOWN COLUMNS OF REVENUE
 
-(Total sum of each group equals REVENUE)
+(Total sum of each group of columns equals sum of REVENUE column)
 
 - By Day of Week:
   - MONDAY_REVENUE, TUESDAY_REVENUE, WEDNESDAY_REVENUE, THURSDAY_REVENUE, FRIDAY_REVENUE, SATURDAY_REVENUE, SUNDAY_REVENUE
