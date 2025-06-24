@@ -1,5 +1,3 @@
-# Data Analysis – Customer Order & Revenue Dataset
-
 ## Objective
 
 The objective is to understand customer-level order and revenue behavior and evaluate time-based patterns.
