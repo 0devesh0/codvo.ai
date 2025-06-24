@@ -161,34 +161,43 @@ The remaining 236 customers (366 - 130) are older and never returned, which is a
 
 ---
 
+## Models that can be build :
+
+- K means clustering - to group customers based on how recently, how often, and how much they purchase
+
+- Logistic Regression - to predict which customers are at risk of not returning based on days since last order, order frequency.
+
+- Logistic Regression - Used to identify customers who are likely to buy only once and not return.
+
+- Random Forest Classifier - predict if customer will provide high revenue in future.
+
+
 ### FLOWCHART
 
 1- Objective -> Understand customer level order & revenue behavior, and evaluate time-based patterns
       
 2- Start with -> Overall Customer Behavior
       
-3- Checked -> Average orders per customer, revenue per customer → Found wide variation
+3- Checked -> Average orders per customer, revenue per customer -> Found wide variation
       
 4- Led to -> Segmentation of customer base -> Are high revenue customers also frequent buyers?
       
-5- Compare Top 10 by Revenue vs Top 10 by Order Count
+5- Compare Top 10 by Revenue vs Top 10 by Order Count -> High spenders aren't Frequent buyers.
       
-6- Found -> High spenders aren't Frequent buyers.
+6- Explore -> Time-based Patterns of Orders and Revenue
       
-7- Explore -> Time-based Patterns of Orders and Revenue
-      
-8- Split by -> Time of Day -> Afternoon (12–6 PM) is peak for both orders and revenue
+7- Split by -> Time of Day -> Afternoon (12–6 PM) is peak for both orders and revenue
 
-9- Split by -> Day of Week -> Thursdays top for both; Weekends -> higher AOV despite fewer orders
+8- Split by -> Day of Week -> Thursdays top for both; Weekends -> higher AOV despite fewer orders
 
-10- Split by -> Weeks of Month -> Increasing trend -> 4th week = highest
+9- Split by -> Weeks of Month -> Increasing trend -> 4th week = highest
       
-11- Insight -> Order & revenue build across the month -> could be salary cycle or promotions
+10- Insight -> Order & revenue build across the month -> could be salary cycle or promotions
       
-12- Investigate -> Customer Frequency Behavior
+11- Investigate -> Customer Frequency Behavior
       
-13- Calculated -> Days since last order -> Found large portion haven't ordered recently -> Possible churn risk
+12- Calculated -> Days since last order -> Found large portion haven't ordered recently -> Possible churn risk
 
-14- Segmented -> Based on last order (45, 90+ days) → Found clear retention gaps
+13- Segmented -> Based on last order (45, 45-90, 90+ days) -> Found clear retention gaps
 
-15- Checked -> One-time customers -> ~7.3% -> Mostly new or inactive older customer
+14- Checked -> One-time customers -> 7.3% -> Mostly new or inactive older customer
