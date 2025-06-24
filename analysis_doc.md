@@ -169,6 +169,8 @@ The remaining 236 customers (366 - 130) are older and never returned, which is a
 
 - Logistic Regression - Used to identify customers who are likely to buy only once and not return.
 
+- XGboost - Predict Revenue that customer will generate
+
 - Random Forest Classifier - predict if customer will provide high revenue in future.
 
 
