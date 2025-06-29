@@ -174,6 +174,22 @@ The remaining 236 customers (366 - 130) are older and never returned, which is a
 - Random Forest Classifier - predict if customer will provide high revenue in future.
 
 
+
+### K means clustering Insights
+
+To understand customer behavior beyond basic metrics, I applied unsupervised learning (KMeans) on the following features:
+
+- **Recency**: Days since last order
+- **Frequency**: Total number of orders
+- **Monetary**: Total revenue generated
+
+|   Cluster |   REVENUE |   TOTAL_ORDERS |   DAYSSINCELASTORDER | Insights      |
+|----------:|----------:|---------------:|---------------------:|:--------------|
+|         0 |  2836.72  |       21.851   |              59.9241 | Steady Buyers |
+|         1 |   561.727 |        4.8746  |             187.301  | At Risk       |
+|         2 |   625.304 |        5.45504 |              16.464  | New           |
+|         3 |  7430.8   |       47.4779  |              58.4735 | VIP customers |
+
 ### FLOWCHART
 
 1- Objective -> Understand customer level order & revenue behavior, and evaluate time-based patterns
